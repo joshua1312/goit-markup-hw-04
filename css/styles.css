@@ -228,7 +228,7 @@
         
         .icon-item {
             width: 40px;
-            width: 40px;
+            height: 40px;
             border-radius: 50%;
             background-color: #4d5ae5;
         }
@@ -287,7 +287,7 @@
             overflow: hidden;
         }
         
-        .overlay {
+        .moving-text {
             position: absolute;
             top: 0;
             font-size: 16px;
@@ -315,7 +315,7 @@
             transform: translateY(0%);
         }
         
-        .iteming:hover .overlay {
+        .iteming:hover .moving-text {
             transform: translateY(0);
         }
         
@@ -330,7 +330,7 @@
         .texting-app {
             padding: 32px 16px;
             border: 1px solid #e7e9fc;
-            border-top: none;
+           /* border-top: none;*/
         }
         
         .page-header {
@@ -434,6 +434,7 @@
             font-size: 16px;
             letter-spacing: 0.02em;
             color:#FFFFFF;
+            margin-bottom: 16px;
         }
         
         .icons-listing-footer {
