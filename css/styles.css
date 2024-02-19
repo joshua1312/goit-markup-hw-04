@@ -243,11 +243,25 @@
             justify-content: center;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
-        
-        .social-link:hover,
-        .social-link:focus {
-            background-color: #404bbf;
+                  .social-link:hover,
+                  .social-link:focus {
+                      background-color: #404bbf;
+                  }
+             .social-link-footer {
+            width: 100%;
+            height: 100%;
+            background-color: #4d5ae5;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
+        
+                .social-link-footer:hover,
+                .social-link-footer:focus {
+                    background-color: #31d0aa;
+                }
         
         .icon-file {
             fill: #f4f4fd;
@@ -416,6 +430,10 @@
         .social-text {
             margin-right: 120px;
             color: #f4f4fd;
+            font-weight: 500;
+            font-size: 16px;
+            letter-spacing: 0.02em;
+            color:#FFFFFF;
         }
         
         .icons-listing-footer {
@@ -430,3 +448,7 @@
             display: flex;
             align-items: baseline;
         }
+                .logo-p{
+                    margin-right: 120px;
+
+                }
